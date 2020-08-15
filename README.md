@@ -1,5 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+production build -
+    npm run build
+
+building image
+    docker build -f Dockerfile -t vipoint-ui:latest .
+
+running image
+    docker run --rm -d  -p 80:80/tcp vipoint-ui:latest
+
+
 ## Available Scripts
 
 In the project directory, you can run:
